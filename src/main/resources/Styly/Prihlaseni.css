@@ -1,0 +1,57 @@
+.prihlaseniKomplet {
+    -fx-background-color: #EEEEEE;
+}
+.prihlaseniLogoKomplet {
+    -fx-background-color: #e6e6e6;
+    -fx-alignment: center;
+}
+.prihlaseniLogoKomplet Text {
+    -fx-fill: #000000;
+    -fx-font-size: 1.1em;
+}
+.prihlaseniLogoKomplet FontAwesomeIconView {
+    -fx-fill: #21923a;
+}
+.vyberUctu {
+    -fx-background-color: #21923a;
+}
+.vyberUctu .label {
+    -fx-text-fill: #000000;
+    -fx-font-size: 1.1em;
+}
+.vyberUctu .arrow {
+    -fx-background-color: #000000;
+}
+#vyberUctuMenu {
+    -fx-background-color: #000000;
+}
+#textVyberu {
+    -fx-font-weight: 800;
+}
+.prihlaseni {
+    -fx-spacing: 15;
+    -fx-alignment: top_left;
+}
+.prihlaseni Label {
+    -fx-font-size: 1.1em;
+    -fx-font-weight: bold;
+}
+.vstup {
+    -fx-background-color: #21923a;
+    -fx-pref-height: 35;
+    -fx-font-size: 1.2em;
+}
+.prihlaseni Button {
+    -fx-background-color: #000000;
+    -fx-text-fill: #EEEEEE;
+    -fx-font-size: 1.2em;
+    -fx-pref-width: 350;
+    -fx-pref-height: 30;
+}
+.prihlaseni Button:hover {
+    -fx-cursor: hand;
+}
+.error {
+    -fx-text-fill: #FF0000;
+}
+

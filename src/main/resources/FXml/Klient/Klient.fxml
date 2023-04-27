@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="klient_rodic" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+    <left>
+        <fx:include source="KlientMenu.fxml"/>
+    </left>
+    <center>
+        <fx:include source="OvladaciPanel.fxml"/>
+    </center>
+</BorderPane>

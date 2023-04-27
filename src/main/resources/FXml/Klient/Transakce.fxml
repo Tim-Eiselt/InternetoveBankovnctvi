@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="transakceBoxik" stylesheets="@../../Styly/Transakce.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jmc.fleecabank.Ovladani.Klient.OvladaniTransakci">
+   <ListView fx:id="transakce_seznam" layoutX="14.0" layoutY="84.0" prefHeight="640.0" prefWidth="830.0" styleClass="transakceBoxik" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="100.0" />
+   <Text layoutX="349.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="transakceBoxik" text="Transakce" AnchorPane.leftAnchor="349.0" AnchorPane.topAnchor="14.0" />
+</AnchorPane>

@@ -1,0 +1,40 @@
+
+.klientBox {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 7);
+}
+
+.klientBox FontAwesomeIconView {
+    -fx-fill: #21923a;
+}
+
+.klientBox HBox {
+    -fx-spacing: 15;
+    -fx-alignment: Center_left;
+}
+
+.klientBox HBox Label {
+    -fx-text-fill: #444444;
+    -fx-font-family: "Georgia";
+    -fx-font-size: 1.4em;
+}
+
+.cislaUctu {
+    -fx-font-family: Georgia;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+.smazani {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #FF0000;
+}
+
+.smazani FontAwesomeIconView {
+    -fx-fill: #FFFFFF;
+}
+
+.smazani:hover {
+    -fx-cursor: hand;
+}

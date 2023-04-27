@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="180.0" styleClass="hlavniMenuBoxik" stylesheets="@../../Styly/KlientMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jmc.fleecabank.Ovladani.Klient.OvladaniKlientMenu">
+   <AnchorPane prefHeight="730.0" prefWidth="160.0" styleClass="levyBoxik">
+      <VBox prefHeight="80.0" prefWidth="160.0" styleClass="nadpisBoxik" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <FontAwesomeIconView glyphName="BANK" size="30" />
+         <ImageView fitHeight="58.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true" translateY="10.0">
+            <Image url="@../../Obrazky/fleeca.png" />
+         </ImageView>
+      </VBox>
+      <VBox prefHeight="400.0" prefWidth="160.0" styleClass="menuBoxik" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+         <Button fx:id="prehled_tlacitko" mnemonicParsing="false" text="Přehled">
+            <graphic>
+               <FontAwesomeIconView glyphName="HOME" size="20" />
+            </graphic>
+         </Button>
+         <Button fx:id="transakce_tlacitko" mnemonicParsing="false" text="Transakce">
+            <graphic>
+               <FontAwesomeIconView glyphName="SEND" size="20" />
+            </graphic>
+         </Button>
+         <Button fx:id="ucty_tlacitko" mnemonicParsing="false" text="Účty">
+            <graphic>
+               <FontAwesomeIconView glyphName="GROUP" size="20" />
+            </graphic>
+         </Button>
+         <Line endX="120.0" />
+         <Button fx:id="profil_tlacitko" mnemonicParsing="false" styleClass="druhyMenuTlacitko" text="Profil">
+            <graphic>
+               <FontAwesomeIconView glyphName="USER_CIRCLE" size="20" />
+            </graphic>
+         </Button>
+         <Button fx:id="odhlaseni_tlacitko" mnemonicParsing="false" styleClass="druhyMenuTlacitko" text="Odhlásit se">
+            <graphic>
+               <FontAwesomeIconView glyphName="SIGN_OUT" size="20" />
+            </graphic>
+         </Button>
+      </VBox>
+   </AnchorPane>
+</VBox>

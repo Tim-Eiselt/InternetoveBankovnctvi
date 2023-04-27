@@ -1,0 +1,49 @@
+.radekBox {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 7);
+}
+
+.ikonyTransakce {
+    -fx-background-color: #FFFFFF;
+    -fx-alignment: center;
+    -fx-spacing: 5;
+}
+
+.datumTransakce {
+    -fx-text-fill: #AAAAAA;
+    -fx-font-weight: 700;
+}
+
+.adresaTransakce {
+    -fx-text-fill: #000000;
+    -fx-font-weight: 700;
+}
+
+.radekBox Line {
+    -fx-stroke: #EEEEEE;
+}
+
+.zprava {
+    -fx-background-color: #FFFFFF;
+}
+
+.zprava FontAwesomeIconView {
+    -fx-fill: #132A13;
+}
+
+.zprava:hover {
+    -fx-cursor: hand;
+}
+
+.castkaTransakce {
+    -fx-background-color: #21923a;
+    -fx-background-radius: 2;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 5;
+    -fx-font-weight: 700;
+}
+
+.castkaTransakce FontAwesomeIconView {
+    -fx-fill: #FFFFFF;
+}

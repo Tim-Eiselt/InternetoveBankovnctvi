@@ -1,0 +1,146 @@
+
+.ovladaciPanel {
+    -fx-background-color: #EEEEEE;
+}
+
+.privitani {
+    -fx-font-size: 2.6em;
+    -fx-font-family: "Georgia";
+}
+
+.datum {
+    -fx-text-fill: #000000;
+    -fx-font-size: 1.1em;
+    -fx-font-family: "Georgia";
+}
+
+.názevSekce {
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Georgia";
+}
+
+.zobrazeniUctu {
+    -fx-background-color: #EEEEEE;
+    -fx-background-radius: 10 0 0 10;
+    -fx-padding: 10 0 10 0;
+    -fx-alignment: center;
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color: #e6e6e6;
+    -fx-spacing: 10;
+}
+
+.ucet {
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 10);
+}
+
+.ucet VBox {
+    -fx-background-color: #e6e6e6;
+}
+
+.ucet Text {
+    -fx-fill: #000000;
+    -fx-font-family: "Georgia";
+    -fx-font-size: 1.5em;
+}
+
+.ucet FontAwesomeIconView {
+    -fx-fill: #000000;
+}
+
+.gradientUctu {
+    -fx-background-color: linear-gradient(to right, #21923a, #21923a);
+}
+
+.zustatek {
+    -fx-text-fill: #000000;
+    -fx-font-family: Georgia;
+    -fx-font-size: 3em;
+    -fx-font-weight: bold;
+}
+
+.ucetCislo {
+    -fx-text-fill: #000000;
+    -fx-font-family: Georgia;
+    -fx-font-size: 1.5em;
+    -fx-text-alignment: center;
+}
+
+.souhrn {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 5 10 5 10;
+    -fx-spacing: 5;
+    -fx-alignment: center_left;
+}
+
+.shrnutiUctu {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-alignment: center_left;
+    -fx-border-radius: 10;
+    -fx-border-color: #999999;
+    -fx-border-width: 1;
+    -fx-border-style: dashed;
+}
+
+.shrnutiUctu Line {
+    -fx-stroke: #AAAAAA;
+}
+
+.prijemCastka {
+    -fx-text-fill: #21923a;
+    -fx-font-family: "Georgia";
+    -fx-font-size: 1.5em;
+}
+
+.vydajeCastka {
+    -fx-text-fill: #AA0000;
+    -fx-font-family: "Georgia";
+    -fx-font-size: 1.5em;
+}
+
+.seznamTransakci {
+    -fx-background-color: #EEEEEE;
+    -fx-border-width: 0 0 0 0;
+    -fx-border-color: #AAAAAA;
+}
+
+.seznamTransakci .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+
+.list-cell {
+    -fx-background-color: #EEEEEE;
+    -fx-padding: 15 0 15 0;
+}
+
+.novaTransakceBoxik {
+    -fx-background-color: #EEEEEE;
+    -fx-padding: 20 10 20 10;
+    -fx-spacing: 10;
+    -fx-alignment: center_left;
+}
+
+.novaTransakceBoxik Label {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 1.3em;
+}
+
+.novaTransakceBoxik TextField {
+    -fx-pref-height: 40;
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+}
+
+.novaTransakceBoxik Button {
+    -fx-background-color: linear-gradient(to right, #21923a, #21923a);
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+    -fx-pref-width: 230;
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Georgia";
+    -fx-text-fill: #FFFFFF;
+}
+
+.novaTransakceBoxik Button:hover {
+    -fx-cursor: hand;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="60.0" prefWidth="550.0" styleClass="radekBox" stylesheets="@../../Styly/TransakcePolicka.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <VBox prefHeight="50.0" prefWidth="50.0" styleClass="ikonyTransakce" AnchorPane.bottomAnchor="4.600000000000001" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="5.0">
+      <FontAwesomeIconView fx:id="sipkaPrava_ikona" glyphName="LONG_ARROW_RIGHT" size="17" />
+      <FontAwesomeIconView fx:id="sipkaLeva_ikona" glyphName="LONG_ARROW_LEFT" size="17" />
+   </VBox>
+   <Label fx:id="datumTransakce_stitek" layoutX="64.0" layoutY="22.0" styleClass="datumTransakce" text="2023-04-10" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="22.0" />
+   <Label fx:id="odesilatel_stitek" layoutX="213.0" layoutY="22.0" styleClass="adresaTransakce" text="Vratislav" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="22.0" />
+   <Line endY="20.0" layoutX="307.0" layoutY="18.0" startY="2.799999237060547" AnchorPane.bottomAnchor="21.5" AnchorPane.leftAnchor="300.0" />
+   <Label fx:id="prijemce_stitek" layoutX="358.0" layoutY="22.0" styleClass="adresaTransakce" text="Bořivoj" AnchorPane.leftAnchor="358.0" AnchorPane.topAnchor="22.0" />
+   <Label fx:id="castka_stitek" layoutX="487.0" layoutY="16.0" styleClass="castkaTransakce" text="2000" AnchorPane.rightAnchor="14" AnchorPane.topAnchor="16.0">
+      <graphic>
+         <FontAwesomeIconView glyphName="EURO" />
+      </graphic>
+   </Label>
+   <Button fx:id="zprava_tlacitko" layoutX="442.0" layoutY="18.0" mnemonicParsing="false" styleClass="zprava" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="18.0">
+      <graphic>
+         <FontAwesomeIconView glyphName="BELL" size="14" />
+      </graphic>
+   </Button>
+</AnchorPane>

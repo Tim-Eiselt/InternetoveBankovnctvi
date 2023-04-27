@@ -1,0 +1,62 @@
+.hlavniMenuBoxik {
+    -fx-background-color: #EEEEEE;
+    -fx-alignment: center;
+    -fx-padding: 0 10 0 10;
+}
+
+.levyBoxik {
+    -fx-background-color: #EEEEEE;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(two-pass-box, #AAAAAA, 5, 0, 0, 4);
+}
+.nadpisBoxik {
+    -fx-background-color: #e6e6e6;
+    -fx-background-radius: 20 20 0 0;
+    -fx-alignment: top_center;
+    -fx-padding: 10;
+}
+
+.nadpisBoxik FontAwesomeIconView {
+    -fx-fill: #21923a;
+}
+
+.nadpisBoxik Text {
+    -fx-fill: #000000;
+    -fx-font-size: 2em;
+}
+
+.menuBoxik {
+    -fx-spacing: 20;
+    -fx-padding: 10 10 10 20;
+}
+
+.menuBoxik Button {
+    -fx-text-fill: #000000;
+    -fx-background-color: #21923a;
+    -fx-font-size: 1.1em;
+    -fx-pref-width: 115;
+    -fx-pref-height: 40;
+    -fx-alignment: center_left;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 5, 0, 0, 6);
+}
+
+.menuBoxik Button:hover {
+    -fx-cursor: hand;
+}
+
+.menuBoxik Button FontAwesomeIconView {
+    -fx-fill: #000000;
+}
+
+.druhyMenuTlacitko {
+    -fx-text-fill: #000000;
+    -fx-background-color: #21923a;
+    -fx-font-size: 1.1em;
+    -fx-pref-width: 115;
+    -fx-pref-height: 40;
+    -fx-alignment: center_left;
+}
+
+.druhyMenuTlacitko FontAwesomeIconView {
+    -fx-fill: #000000;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="vytvoreniKlienta" stylesheets="@../../Styly/VytvoreniKlienta.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jmc.fleecabank.Ovladani.Admin.OvladaniVytvoreniKlienta">
+   <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vytvořit nový klientský účet" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+   <VBox fillWidth="false" layoutX="14.0" layoutY="41.0" prefHeight="700.0" prefWidth="600.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="40.0">
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Křestní jméno:" />
+      <TextField fx:id="krestni_pole" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Příjmení:" />
+      <TextField fx:id="prijmeni_pole" />
+      <Text layoutX="10.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Heslo:" />
+      <TextField fx:id="heslo_pole" layoutX="10.0" layoutY="69.0" />
+      <Text layoutX="10.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Uživatelská adresa:" />
+      <CheckBox fx:id="uzivatelskaAdresa_box" mnemonicParsing="false" />
+      <Label fx:id="uzivatelskaAdresa_stitek" styleClass="uzivatelskaAdresa" />
+      <Text layoutX="10.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Účty:" />
+      <CheckBox fx:id="beznyUcet_box" mnemonicParsing="false" text="Přidat běžný účet" />
+      <Text layoutX="10.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zůstatek běžného účtu:" />
+      <TextField fx:id="beznaCastka_pole" layoutX="10.0" layoutY="114.0" />
+      <CheckBox fx:id="sporiciUcet_box" layoutX="10.0" layoutY="207.0" mnemonicParsing="false" text="Přidat spořící účet" />
+      <Text layoutX="10.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zůstatek spořícího účtu:" />
+      <TextField fx:id="sporiciCastka_pole" layoutX="10.0" layoutY="245.0" />
+      <Button fx:id="vytvorKlienta_tlacitko" mnemonicParsing="false" text="Vytvořit nového klienta" />
+      <Label fx:id="error_stitek" layoutX="10.0" layoutY="175.0" styleClass="error" />
+   </VBox>
+</AnchorPane>

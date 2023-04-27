@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="50.0" prefWidth="750.0" styleClass="klientBox" stylesheets="@../../Styly/KlientPolicka.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <FontAwesomeIconView glyphName="USER" layoutX="14.0" layoutY="29.0" size="20" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+   <HBox layoutX="74.0" layoutY="-25.0" prefHeight="40.0" prefWidth="550.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="5.0">
+      <Label fx:id="krestni_stitek" text="Bob" />
+      <Label fx:id="prijmeni_stitek" text="Bobbins" />
+      <Label fx:id="uzivatelskaAdresa_stitek" text="\@bBobbins1" />
+      <Label fx:id="beznyUcet_stitek" styleClass="cislaUctu" text="574110285" />
+      <Label fx:id="sporiciUcet_stitek" styleClass="cislaUctu" text="24318640" />
+      <Label fx:id="datum_stitek" text="2023-04-10" />
+   </HBox>
+   <Button fx:id="smazani_tlacitko" layoutX="684.0" layoutY="12.0" mnemonicParsing="false" styleClass="smazani" text="Smazat" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="12.0">
+      <graphic>
+         <FontAwesomeIconView glyphName="WINDOW_CLOSE_ALT" size="15" />
+      </graphic>
+   </Button>
+</AnchorPane>

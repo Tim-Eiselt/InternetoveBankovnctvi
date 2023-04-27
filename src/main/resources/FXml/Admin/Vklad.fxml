@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" stylesheets="@../../Styly/Vklad.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jmc.fleecabank.Ovladani.Admin.OvladaniVkladu">
+   <VBox layoutX="15.0" layoutY="137.0" prefHeight="570.0" prefWidth="820.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="100.0">
+      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="820.0" styleClass="vyhledavani">
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Vyhledej podle adresy uživatele:" />
+         <TextField fx:id="adresaUzivatele_pole" />
+         <Button fx:id="vyhledavani_tlacitko" mnemonicParsing="false" text="Vyhledej">
+            <graphic>
+               <FontAwesomeIconView fill="WHITE" glyphName="SEARCH" size="20" />
+            </graphic>
+         </Button>
+      </HBox>
+      <ListView fx:id="vysledky_seznam" prefHeight="200.0" prefWidth="820.0" styleClass="vyhledavani" />
+      <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="315.0" prefWidth="100.0" styleClass="vklad">
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sekce vkladu:" />
+         <TextField fx:id="castka_pole" />
+         <Button fx:id="vklad_tlacitko" mnemonicParsing="false" text="Vložit">
+            <graphic>
+               <FontAwesomeIconView fill="WHITE" glyphName="MONEY" size="20" />
+            </graphic>
+         </Button>
+      </VBox>
+   </VBox>
+</AnchorPane>

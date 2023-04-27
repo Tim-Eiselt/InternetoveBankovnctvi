@@ -1,0 +1,51 @@
+.vytvoreniKlienta {
+    -fx-background-color: #EEEEEE;
+}
+
+.vytvoreniKlienta Text {
+    -fx-font-size: 1.2em;
+    -fx-fill: #888888;
+}
+
+.vytvoreniKlienta VBox {
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: #000000;
+    -fx-padding: 10;
+    -fx-spacing: 15;
+}
+
+.vytvoreniKlienta TextField {
+    -fx-pref-width: 250;
+    -fx-pref-height: 35;
+    -fx-background-color: #FFFFFF;
+    -fx-font-size: 1.3em;
+    -fx-effect: dropshadow(three-pass-box,#AAAAAA, 3, 0, 0, 3);
+}
+
+.uzivatelskaAdresa {
+    -fx-pref-width: 250;
+    -fx-pref-height: 30;
+    -fx-padding: 5;
+    -fx-background-color: #888888;
+    -fx-background-radius: 5;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 1.3em;
+    -fx-effect: dropshadow(three-pass-box,#AAAAAA, 3, 0, 0, 3);
+}
+
+.vytvoreniKlienta Button {
+    -fx-background-color: linear-gradient(to right, #21923a, #21923a);
+    -fx-effect: dropshadow(three-pass-box,#AAAAAA, 3, 0, 0, 3);
+    -fx-pref-width: 250;
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Georgia";
+    -fx-text-fill: #FFFFFF;
+}
+
+.vytvoreniKlienta Button:hover {
+    -fx-cursor: hand;
+}
+
+.errror_stitek {
+    -fx-text-fill: #FF0000;
+}

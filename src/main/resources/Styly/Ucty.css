@@ -1,0 +1,48 @@
+
+.zobrazeniUctuBoxik {
+    -fx-background-color: #EEEEEE;
+}
+
+.zobrazeniUctuBoxik Text {
+    -fx-fill: #000000;
+    -fx-font-size: 1.4em;
+    -fx-font-family: "Calibri Light";
+}
+
+.zobrazeniUctuBoxik VBox {
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: #000000;
+    -fx-padding: 10;
+    -fx-spacing: 15;
+}
+
+.zobrazeniUctuBoxik VBox Text {
+    -fx-font-size: 1.2em;
+}
+
+.zobrazeniUctuBoxik VBox Label {
+    -fx-font-size: 1.2em;
+    -fx-font-weight: bold;
+}
+
+.zobrazeniUctuBoxik TextField {
+    -fx-pref-width: 230;
+    -fx-pref-height: 35;
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, #000000, 3, 0, 0, 3);
+}
+
+.zobrazeniUctuBoxik Button {
+    -fx-background-color: linear-gradient(to right, #21923a, #21923a);
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+    -fx-pref-width: 230;
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Calibri Light";
+    -fx-text-fill: #FFFFFF;
+}
+
+.zobrazeniUctuBoxik Button:hover {
+    -fx-cursor: hand;
+}
+
+
